@@ -1,15 +1,18 @@
 # Food Repo v2
 
+Front-end application on food recipes that consumes 2 APIs.
+
 ## Functionalities
 
-- search for random recipe's
+- Search for random recipes
 - See a recipe's details
-- Sign in
+- Sign up
 - Log in
 - See favourite recipes
-- Mark/unmark a recipe ad favorite
+- Mark a recipe as favourite
+- Unmark a recipe as favourite
 - Log out
 
 ## Tools
 
-Javascript / CSS / HTML5
+JavaScript / CSS3 / HTML5
