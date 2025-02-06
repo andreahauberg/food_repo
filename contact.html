@@ -6,6 +6,7 @@
     <title>Food Repo</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <script src="js/contact.js" type="module"></script>
   </head>
   <body>
     <header>
@@ -22,7 +23,10 @@
       <header>
         <h2>Contact</h2>
       </header>
-      <section>
+      <section id="contact_info">
+        <header>
+          <h3>Contact Information</h3>
+        </header>
         <address>
           <div id="psyical-adress">
             <p>Guldbergsgade 21N</p>
@@ -44,9 +48,30 @@
         </address>
       </section>
       <section>
-        <p>Up to come</p>
+        <header><h3>Contact Form</h3></header>
+        <form id="frmContact">
+          <fieldset>
+            <div>
+              <label for="txtName">Full Name</label>
+              <input type="text" id="txtName" required />
+            </div>
+            <div>
+              <label for="txtEmail">Email Adress</label>
+              <input type="email" id="txtEmail" required />
+            </div>
+            <div>
+              <label for="txtComments">Comments</label>
+              <textarea id="txtComments" required></textarea>
+            </div>
+            <div>
+              <button type="submit">Send Comment</button>
+            </div>
+          </fieldset>
+        </form>
       </section>
     </main>
-    <footer><p>&copy; 2025 KEA Development</p></footer>
+    <footer>
+      <p>&copy; 2025 K&oslash;benhavns Erhvervsakedemi Development</p>
+    </footer>
   </body>
 </html>
