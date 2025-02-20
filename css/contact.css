@@ -1,3 +1,16 @@
+@media (min-width: 640px) {
+  #wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    justify-content: space-between;
+
+    > section {
+      flex: 1 0 auto;
+    }
+  }
+}
+
 address {
   font-style: normal;
 
@@ -9,7 +22,8 @@ address {
 #contact_info {
   margin-bottom: 1rem;
 }
-form {
+form,
+address {
   margin-top: 1rem;
 
   fieldset {

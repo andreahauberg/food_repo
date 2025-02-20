@@ -10,6 +10,11 @@ body {
   font-family: var(--fontMain);
   color: var(--colorMain);
   background-color: var(--colorBgMain);
+
+  @media (min-width: 1024px) {
+    max-width: var(--maxBodyWidth);
+    margin: auto;
+  }
 }
 
 main {
