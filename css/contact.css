@@ -53,3 +53,29 @@ address {
     }
   }
 }
+
+#contact_message {
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 1rem;
+
+    padding: 0;
+
+    .close {
+      border: none;
+      height: 0.5rem;
+      background-color: var(--colorBgMain);
+      font-size: 1.3rem;
+    }
+  }
+
+  ul {
+    margin-left: 1.5rem;
+  }
+}

@@ -65,3 +65,7 @@ a {
     font-weight: bold;
   }
 }
+
+button {
+  cursor: pointer;
+}
